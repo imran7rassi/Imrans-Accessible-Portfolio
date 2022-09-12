@@ -13,7 +13,7 @@ At first I made a repository in github then clone it to my computer through the 
 
 ## Usage
 
-You can read every section of this website and it shows how a business can grow using tools shown in the website.
+You can read every section of this website and it shows my personal Portfolio.
 
 <img src="./assets/images/Screen-1.jpg/" >
 
