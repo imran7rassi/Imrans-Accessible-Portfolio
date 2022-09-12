@@ -15,6 +15,8 @@ At first I made a repository in github then clone it to my computer through the 
 
 You can read every section of this website and it shows how a business can grow using tools shown in the website.
 
+<img src="./assets/images/Screen-1.jpg/" >
+
 
 ## Credits
 
