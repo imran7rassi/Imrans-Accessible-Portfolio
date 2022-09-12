@@ -124,6 +124,7 @@ h4 {
     color: #33393f;
     border: #648b9e;
     border-style: hidden;
+    font-display: bold;
 }
 
 h4:hover {
@@ -244,7 +245,7 @@ h5 {
   .contact {
     font-size: 25px;
     margin-left: 50px;
-    text-align: left;
+    text-align: center;
     font-style: normal;
     align-content: flex-start;
     list-style-type: square;
@@ -252,9 +253,24 @@ h5 {
     margin-bottom: 5px;
     line-height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 60px;
   }
  
   ion-icon {
     font-size: 25px;
     color: rgb(255, 134, 164);
   }
+  .footer {
+    padding: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+.footer h6 {
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
