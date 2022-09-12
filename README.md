@@ -6,7 +6,7 @@ The main goal of making this website is having my personal portfolio. Explaining
 
 ## Installation
 
-At first I made a repository
+At first I made a repository in github then clone it to my computer through the terminal. I used vs code to make the html and css more readable, by using css I edited and gave style to my website unless the visitor get interest from visiting my portfolio. These are some starting process of my work:
 
 1. Create a new repository on your GitHub account and clone it to your computer.
 2. When you're ready to deploy, use the git add, git commit, and git push commands to save and push your code to your GitHub repository.
@@ -14,12 +14,7 @@ At first I made a repository
 ## Usage
 
 You can read every section of this website and it shows how a business can grow using tools shown in the website.
-    ```md
-    ![the main contens](./assets/images/screenshot.png) 
-    ```
-    ```md
-    ![describing tools of webpage](./assets/images/screenshot-2.png)
-    ```
+
 
 ## Credits
 

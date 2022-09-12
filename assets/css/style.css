@@ -281,10 +281,31 @@ h5 {
       flex: 0 0 50%;
       max-width: 100%;
     }
-}
-@media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
+    .figure {
+        flex: 0 0 50%;  
+        max-width: 100%;  
     }
+    .header {
+      flex: 0 0 50%;  
+      max-width: 100%;
+    }
+    aside {
+        flex: 0 0 50%;  
+        max-width: 100%; 
+    }
+}
+@media screen and (max-width: 576px) {
+    .card-column {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+      .header {
+        flex: 0 0 50%;  
+        max-width: 50%;
+      }
+      aside {
+          flex: 0 0 50%;  
+          max-width: 50%; 
+    
   }
+}
