@@ -101,6 +101,7 @@ aside {
     padding: 40px;
     flex-wrap: wrap;
     margin-left: 10px;
+    white-space: wrap;
 }
 /* this class describes the style of images */
 .float-right {
@@ -274,38 +275,58 @@ h5 {
     justify-content: center;
     margin-top: 40px;
 }
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
-    .card-column {
-      flex: 0 0 50%;
-      max-width: 100%;
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
     }
-    .figure {
-        flex: 0 0 50%;  
-        max-width: 100%;  
+    /* Change the header color */
+    header {
+        width: 100%;
+        height: 100%;
+        line-height: 150px;
+        background-position: 100%;
+        background-color: #648b9e;
+        font-size: 15px;
+        text-align: justify;
     }
-    .header {
-      flex: 0 0 50%;  
-      max-width: 100%;
+    .float-left {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #6d6d6d;
     }
-    aside {
-        flex: 0 0 50%;  
-        max-width: 100%; 
+
+    .float-right {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #6d6d6d;
     }
-}
-@media screen and (max-width: 576px) {
-    .card-column {
-        flex: 0 0 50%;
-        max-width: 50%;
-      }
-      .header {
-        flex: 0 0 50%;  
-        max-width: 50%;
-      }
-      aside {
-          flex: 0 0 50%;  
-          max-width: 50%; 
-    
-  }
+    .content {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .contact {
+    font-size: 15px;
+    margin-left: 50px;
+    text-align: center;
+    font-style: normal;
+    align-content: flex-start;
+    list-style-type: square;
+    width: 75%;
+    margin-bottom: 5px;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 60px;
+    }
+    p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    section {
+        font-size: small;
+    }
+    nav {
+        font-size: small;
+        display: inline-block;
+    }
 }
